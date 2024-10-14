@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Form with Select and Radio Buttons</title>
+</head>
+<body>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+<div>
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+</div>
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+             <option value="select your country">select your country</option>
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="canada">Canada</option>
+            <option value="australia">Australia</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
